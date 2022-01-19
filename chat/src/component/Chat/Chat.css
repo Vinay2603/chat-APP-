@@ -1,0 +1,30 @@
+.chatContainer{
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+    position:absolute;
+    top: 100px;
+    left: 550px;
+}
+.header{
+    background-color: blanchedalmond;
+    height: 8%;
+
+}
+.chatBox{
+    background-color: white;
+    height: 80%;
+    border: 1px solid black;
+    margin: 3px;
+}
+.inputBox{
+    background-color: blanchedalmond;
+    height: 10%;
+    
+}
+#chatInput{
+    height: 80%;
+    width: 80%;
+    outline: none;
+    padding: 1px;
+}

@@ -1,0 +1,12 @@
+.JoinPage{
+      background-color: #EA99D5;
+      width: 100vw;
+      height: 100vh;
+    }
+
+.JoinContainer{
+   border: 1px sold black;
+   position: absolute;
+   left: 500px;
+   top: 200px;
+}
