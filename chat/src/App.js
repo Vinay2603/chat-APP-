@@ -5,7 +5,7 @@ import Join from "./component/Join/Join"
 import { Chat } from './component/Chat/Chat';
 //const ENDPOINT = "http://localhost:4500/"
 //const socket = socketIO(ENDPOINT , {transport:["websocket"]} )
-
+import { Extra } from './component/extra/extra';
 
 function App() {
 
@@ -14,7 +14,7 @@ function App() {
   // })
   return (
     <div className="App">
-   
+    
 <Routes>
    <Route path="/" element={ <Join/> } > </Route>
    <Route path="/chat" element={ <Chat/>} ></Route> 

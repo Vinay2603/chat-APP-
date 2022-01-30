@@ -32,7 +32,7 @@ io.on("connection",(socket)=>{
 
     socket.on("message",({message,id})=>{
            //console.log("from server ",message,id)
-          io.emit("sendMessage",{user:users[id],message,id})
+          io.emit("sendMessage",{ user:users[id] , message ,id })
     })
 
 
